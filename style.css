@@ -1,0 +1,81 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient( 135deg, #d50000 10%, #d50000 40%, #FFA500 50%, #00A500 60%,  #00A500 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0px;
+}
+
+body .drop-here {
+    border: 1vw dashed white;
+    padding: 2vw;
+    color: white;
+    font-size: 4vw;
+    text-align: center;
+}
+
+body.hover .drop-here {
+    text-shadow: 5px 5px 10px black;
+}
+
+body.hover * {
+    /* required for dragleave */
+    pointer-events: none;
+}
+
+body .status {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #DDD;
+    background-color: #FFF;
+    border-radius: 12px;
+    padding: 10px;
+    line-height: 26px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #1E2235;
+}
+
+button:hover {
+    background-color: #EEE;
+}
+
+body .status button .imported {
+    font-weight: normal;
+}
+
+body .status button.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+body .status button.disabled:hover {
+    background-color: #FFF;
+}
+
+button.help {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    padding: 0px 10px;
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+button.help::before {
+    content: '?';
+    margin-right: 5px;
+    font-weight: bolder;
+}

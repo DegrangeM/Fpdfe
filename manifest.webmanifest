@@ -1,0 +1,13 @@
+{
+	"name": "Fpdfe",
+	"short_name": "Fpdfe",
+	"description": "Fpdfe (Form Pdf Exporter) est un outil permettant d'extraire le contenu des champs de formulaires de documents Pdf et d'en générer un fichier tableur (csv).",
+	"start_url": "index.html",
+	"display": "standalone",
+	"icons": [
+	{
+		"src": "icon.svg",
+		"sizes": "144x144"
+	}
+	]
+}
