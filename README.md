@@ -14,3 +14,5 @@ L'application peut être utilisée via sa version [en ligne](https://degrangem.g
 Le [wiki](https://github.com/DegrangeM/Fpdfe/wiki) contient divers tutoriels utiles.
 
 ![image](https://user-images.githubusercontent.com/53106394/113881516-ca620780-97bc-11eb-844e-7151e3a0ba22.png)
+
+Si vous souhaitez extraire le contenu des champs de formulaires de document Libreoffice Writer (.odt) vous pouvez consulter mon autre outil [Fodte](https://github.com/DegrangeM/Fodte).
