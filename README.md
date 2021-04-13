@@ -1,5 +1,7 @@
 <a href="https://degrangem.github.io/Fpdfe/"><img src="https://badgen.net/badge/Fpdfe/Version%20en%20ligne/d50000?icon=github"></a>
 <a href="https://github.com/DegrangeM/Fpdfe/wiki"><img src="https://badgen.net/badge/Fpdfe/Wiki/d50000?icon=wiki"></a>
+<a href="https://degrangem.github.io/Fodte/"><img src="https://badgen.net/badge/Fodte/Alternative pour odt/0f81c1?icon=github"></a>
+
 
 # Fpdfe
 
